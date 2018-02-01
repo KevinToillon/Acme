@@ -169,9 +169,13 @@ ul#services li{
     background: #e6e6e6;
 }
 
+/* #####################
+    Footer
+    ################# */
 footer{
-    padding: 20px;
-    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    width: 100%;
     color: #ffffff;
     background-color: #e8491d;
     text-align: center;
