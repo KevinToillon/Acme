@@ -8,7 +8,9 @@ body{
     background-color: #f4f4f4;
 }
 
-/*Global*/
+/* ################
+    Global
+    #############*/
 .container{
     width: 80%;
     margin: auto;
@@ -37,7 +39,9 @@ ul{
     margin-bottom: 10px;
 }
 
-/* Header */
+/* ################
+    Header
+    #############*/
 header{
     background: #35424a;
     color: #ffffff;
@@ -57,7 +61,7 @@ header a{
 }
 
 header li{
-    /* float: left; */
+    /* float: left; no effect w/ [display:inline]*/
     display: inline;
     padding: 0 20px 0 20px;
 }
@@ -106,8 +110,9 @@ header a:hover{
     font-style: 20px;
 }
 
-
-/* Newsletter */
+/* ################
+    Newsletter
+    #############*/
 #newsletter{
     padding: 15px;
     color: #ffffff;
@@ -129,7 +134,9 @@ header a:hover{
     width: 250px;
 }
 
-/* Boxes */
+/* ################
+    Boxes
+    #############*/
 #boxes{
     margin-top: 20px;
 }
@@ -145,7 +152,9 @@ header a:hover{
     width: 90px;
 }
 
-/* Sidebar */
+/* ################
+    Sidebar
+    #############*/
 aside#sidebar{
     float: right;
     width: 30%;
@@ -157,13 +166,17 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
     padding: 5px;
 }
 
-/* Main-col */
+/* ################
+    Main-col
+    #############*/
 article#main-col{
     float: left;
     width: 65%;
 }
 
-/* Services */
+/* ################
+    Services
+    #############*/
 ul#services li{
     list-style: none;
     padding: 20px;
@@ -172,9 +185,9 @@ ul#services li{
     background: #e6e6e6;
 }
 
-/* #####################
+/* ################
     Footer
-    ################# */
+    #############*/
 footer{
     position: absolute;
     left: 0;
@@ -184,7 +197,9 @@ footer{
     text-align: center;
 }
 
-/* Media Queries */
+/* ################
+    Media Queries
+    #############*/
 @media(max-width: 768px){
         header #branding,
         header nav,
